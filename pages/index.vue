@@ -5,15 +5,12 @@ import type { Data } from "~/types/types";
 const recipes: Data = data;
 </script>
 <template>
-  <div>
-    <h1>Recipes</h1>
+  <div class="flex flex-col gap-4">
     <div v-for="recipe in recipes.recipes" :key="recipe.id">
-      <div class="border-2 w-40 flex flex-col gap-4 py-4 px-2">
+      <div class="border-2 border-purple-500 w-80 py-4 px-4 rounded-lg">
         <h2 class="font-bold">{{ recipe.name }}</h2>
         <p>{{ recipe.description }}</p>
       </div>
     </div>
   </div>
 </template>
-
-<style></style>
