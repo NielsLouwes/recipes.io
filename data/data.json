@@ -160,6 +160,46 @@
         "easy to make"
       ],
       "slug": "vegan-potato-salad"
+    },
+    {
+      "id": 4,
+      "name": "Freddy's pasta in red sauce",
+      "description": "Easy to prepare vegan spaghetti and meatballs to die for.",
+      "ingredients": [
+        "vegan meatballs",
+        "spaghetti",
+        "400g Pulpa",
+        "tomato puree",
+        "1 yellow onion",
+        "4 garlic cloves",
+        "1 teaspoon sugar"
+      ],
+      "nutrition": [],
+      "spices": [],
+      "instructions": [
+        "Cut up one onion and smash 4 garlic cloves",
+        "Add olive oil to a pan cook the onions until brown",
+        "Add the garlic and bake for a minute, avoid burning them.",
+        "Add 2 spoons of tomatoe puree and one spoon of sugar",
+        "Add the 400g of pulpa and combine.",
+        "Add spices",
+        "Let this slowly cook for up to 15 minutes (longer is even better)",
+        "Boil water and cook 200g of spaghetti in water",
+        "Prepare the vegan meatball in another pan",
+        "Add the cooked spaghetti and some of the water to the sauce and combine.",
+        "Enjoy!"
+      ],
+      "tips": [
+        "Boil water for spaghetti after the sauce is starting to slowly cook for the 15 minutes."
+      ],
+      "prep-time": 5,
+      "cooking-time": 15,
+      "serves": "2-3",
+      "difficulty": 2,
+      "cuisine": "Pasta",
+      "calories": null,
+      "tags": ["italian", "spaghetti", "pasta", "easy to make", "meatballs"],
+      "slug": "vegan-potato-salad"
     }
   ]
 }
