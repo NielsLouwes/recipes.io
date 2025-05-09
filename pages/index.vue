@@ -5,7 +5,9 @@ import type { Data } from "~/types/types";
 const recipes: Data = data;
 </script>
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-12 py-4">
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-12 py-8"
+  >
     <div
       v-for="(recipe, index) in recipes.recipes"
       :key="recipe.id"
@@ -17,10 +19,10 @@ const recipes: Data = data;
     >
       <NuxtLink :to="`/recipes/${recipe.id}`" class="block h-full">
         <div
-          class="border-2 border-purple-500 h-full py-4 px-4 rounded-lg hover:border-4 cursor-pointer transition-all duration-300"
+          class="border border-gray-300 h-full p-6 rounded-sm hover:border-purple-500 hover:border-[3px] transition-all duration-300"
         >
-          <h2 class="font-bold text-xl">{{ recipe.name }}</h2>
-          <p class="mt-2">{{ recipe.description }}</p>
+          <h2 class="font-heading text-2xl mb-3">{{ recipe.name }}</h2>
+          <p class="font-body text-gray-600">{{ recipe.description }}</p>
         </div>
       </NuxtLink>
     </div>

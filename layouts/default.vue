@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-col items-center">
-    <h1 class="text-2xl font-bold py-6">Recipes.io</h1>
+    <h1 class="text-3xl tracking-wide py-6 font-heading text-gray-800">
+      Recipes.io
+    </h1>
     <slot />
   </div>
 </template>
