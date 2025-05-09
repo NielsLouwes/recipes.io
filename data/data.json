@@ -199,7 +199,99 @@
       "cuisine": "Pasta",
       "calories": null,
       "tags": ["italian", "spaghetti", "pasta", "easy to make", "meatballs"],
-      "slug": "vegan-potato-salad"
+      "slug": "vegan-spaghetti-meatballs"
+    },
+    {
+      "id": 5,
+      "name": "Fresh ginger shots",
+      "description": "Easy to make ginger shots recipe.",
+      "ingredients": [
+        "1/2 cup fresh ginger root",
+        "1/4 cup fresh lemon juice",
+        "1/4 cup coconut water / tap water",
+        "1 tablespoon honey",
+        "Dash of turmeric"
+      ],
+      "nutrition": [],
+      "spices": [],
+      "instructions": [
+        "Wash the ginger root but leave the peel intact",
+        "Chop the ginger root into large chunks and place in blender",
+        "Pour in lemon juice, water, honey and turmeric.",
+        "Blend it all together",
+        "Place a fine mesh strainer over a measuring pitcher or glass, pour the contents from the blender in and use a spatula to press down on the thick pulp",
+        "Pour the strained juice left over into a glass container"
+      ],
+      "tips": [
+        "Use the 100ml cup and measure out your gingner roots. Then use half the amount in cups for lemon juice and water."
+      ],
+      "prep-time": 15,
+      "cooking-time": 0,
+      "serves": "2-3",
+      "difficulty": 1,
+      "cuisine": "Health",
+      "calories": null,
+      "tags": ["health", "ginger"],
+      "slug": "ginger-shots"
+    },
+    {
+      "id": 6,
+      "name": "Tofu Butter Chicken",
+      "description": "This dish was inspired by one of the world's most popular Indian dishes, butter chicken. We just replaced the chicken with wonderful tofu and made the recipe speedy!  Next time you're in the mood for a rich, creamy curry that's full of flavour and completely reliable, give this recipe a whirl",
+      "ingredients": [
+        "2 x 225g block of firm tofu",
+        "vegetable oil for frying",
+        "1 green chilli",
+        "Plant-based Naan bread or Roti - optional",
+        "handful of coriander leaves",
+        "2 limes",
+        "2 tsp garam masala",
+        "2 tsp ground coriander",
+        "2 tsp ground cumin",
+        "2 tsp turmeric",
+        "1 tbsp tomato purée",
+        "400ml Passata",
+        "200ml coconut cream - or oat cream",
+        "1 onion",
+        "1 garlic clove",
+        "1 thumb-sized piece of ginger - peeled",
+        "Salt & pepper to taste"
+      ],
+      "nutrition": [],
+      "spices": [],
+      "instructions": [
+        "Add 1 tablespoon of the plant-based butter to a frying pan or casserole and set over a medium-high heat",
+        "Peel and roughly chop the onion and add it to the pan with pinch of salt • Fry for 3–4 minutes, stirring occasionally",
+        "Add the spices and cook for 1 minute",
+        "Peel the garlic then grate the garlic and ginger directly into the pan",
+        "Add the tomato purée and fry for 2 minutes",
+        "Pour the passata into the pan, bring to the boil, then reduce to a simmer",
+        "Leave to bubble while you make the puffs",
+        "Pour a 1cm depth of oil into the second frying pan and set it over a high heat",
+        "Pat the tofu dry with kitchen paper and tear it into bite-sized chunks",
+        "Put the cornflour and salt into a sandwich bag or Tupperware container",
+        "Add the tofu chunks and shake until the chunks are well dusted",
+        "Carefully lower the dusted tofu pieces into the hot oil and cook until golden, crispy and puffed up, increasing the heat if necessary",
+        "Remove to drain on the plate lined with kitchen paper",
+        "Heat the rice pouches in the microwave according to the packet instructions",
+        "Slice the limes into wedges",
+        "Finely slice the green chilli",
+        "Add the plant-based cream and the remaining tablespoon of plant-based butter to the pan",
+        "Season with salt and pepper",
+        "Tip the puffed tofu into the curry sauce and stir until coated",
+        "Divide the curry between bowls",
+        "Scatter with coriander leaves and green chilli",
+        "Serve with the rice, lime wedges and naans or roti, if you like"
+      ],
+      "tips": [],
+      "prep-time": 30,
+      "cooking-time": 20,
+      "serves": "2-3",
+      "difficulty": 3,
+      "cuisine": "Indian",
+      "calories": null,
+      "tags": ["indian", "curry", "tofu", "butter chicken"],
+      "slug": "tofu-butter-chicken"
     }
   ]
 }
