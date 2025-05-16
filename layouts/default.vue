@@ -1,8 +1,10 @@
 <template>
   <div class="flex flex-col items-center">
-    <h1 class="text-4xl tracking-wide py-6 font-heading text-gray-800">
-      Recipes.io
-    </h1>
+    <NuxtLink to="/">
+      <h1 class=" text-3xl md:text-5xl tracking-wide py-6 font-heading text-gray-800 font-extrabold">
+        Recipes.io
+      </h1>
+    </NuxtLink>
     <slot />
   </div>
 </template>

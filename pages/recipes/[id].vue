@@ -22,11 +22,11 @@ const toggleLock = () => {
 
 <template>
   <div class="flex flex-col w-[95%] md:w-[70%] gap-6 px-2 md:py-8 mx-auto">
-    <h2 class="font-heading text-3xl tracking-wide">{{ recipe?.name }}</h2>
+    <h2 class="font-heading text-2xl md:text-4xl tracking-wide font-extrabold">{{ recipe?.name }}</h2>
     <p class="font-body text-gray-600 italic">{{ recipe?.description }}</p>
 
-    <div class="border border-gray-300 px-6 py-4 rounded-sm">
-      <h2 class="font-heading text-xl mb-4">Ingredients</h2>
+    <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
+      <h2 class="font-heading text-xl mb-4 font-bold">Ingredients</h2>
       <ul class="space-y-2">
         <li
           v-for="(ingredient, index) in recipe?.ingredients"
@@ -38,9 +38,9 @@ const toggleLock = () => {
       </ul>
     </div>
 
-    <div class="border border-gray-300 px-6 py-4 rounded-sm">
+    <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
       <div class="flex justify-between items-center mb-4">
-        <h2 class="font-heading text-2xl font-bold">Instructions</h2>
+        <h2 class="font-heading text-xl font-bold">Instructions</h2>
 
         <label class="flex items-center gap-2">
           <span class="font-body text-gray-700">Lock screen</span>
