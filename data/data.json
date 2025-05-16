@@ -295,6 +295,129 @@
       "calories": null,
       "tags": ["indian", "curry", "tofu", "butter chicken"],
       "slug": "tofu-butter-chicken"
+    },
+    {
+      "id": 7,
+      "name": "Glazed Stovetop Carrots",
+      "description": "Carrots cooked until tender in a buttery maple and brown sugar glaze, topped with herbs and flaky salt. A simple yet elegant side dish!",
+      "ingredients": [
+        "450 g carrots, peeled and sliced into coins",
+        "2 tbsp butter (or vegan butter)",
+        "2 tbsp maple syrup",
+        "1 tbsp brown sugar",
+        "1/2 tsp salt",
+        "1/4 tsp black pepper",
+        "1/4 tsp cinnamon (optional)",
+        "1 tbsp chopped parsley or thyme",
+        "Flaky salt for topping"
+      ],
+      "nutrition": [
+        "Calories: 150kcal",
+        "Carbohydrates: 25g",
+        "Protein: 1g",
+        "Fat: 6g",
+        "Saturated Fat: 3g",
+        "Sodium: 300mg",
+        "Fiber: 3g",
+        "Sugar: 18g"
+      ],
+      "spices": [
+        "Salt",
+        "Black Pepper",
+        "Cinnamon"
+      ],
+      "instructions": [
+        "Place a large skillet over medium heat and add the butter.",
+        "Once melted, add the carrots and sauté for 5 minutes, stirring occasionally.",
+        "Add the maple syrup, brown sugar, salt, pepper, and cinnamon. Stir to coat the carrots.",
+        "Cover and reduce heat to low. Cook for another 10–15 minutes until the carrots are tender and glazed, stirring occasionally.",
+        "Uncover and increase heat to medium-high. Cook for another 2–3 minutes to thicken the glaze.",
+        "Remove from heat. Stir in chopped herbs and sprinkle with flaky salt before serving."
+      ],
+      "tips": [
+        "Cut your carrots evenly so they cook at the same rate.",
+        "Add a splash of orange juice or balsamic vinegar for extra depth.",
+        "Use vegan butter to keep the dish plant-based."
+      ],
+      "prep-time": 5,
+      "cooking-time": 20,
+      "serves": "4",
+      "difficulty": 2,
+      "cuisine": "Side Dish",
+      "calories": 150,
+      "tags": [
+        "carrots",
+        "vegetables",
+        "side dish",
+        "easy to make",
+        "vegan option"
+      ],
+      "slug": "glazed-stovetop-carrots"
+    },
+    {
+      "id": 8,
+      "name": "Baked Gnocchi with Summer Vegetables",
+      "description": "A vibrant, oven-roasted gnocchi dish packed with summer vegetables, seasoned with herbs and capers, and optionally topped with vegan ricotta. Perfect for a quick and flavorful meal.",
+      "ingredients": [
+        "30 ml / 2 tbsp olive oil",
+        "1 large garlic clove, finely grated",
+        "1 tsp dried oregano",
+        "a generous pinch of mild chilli flakes (optional)",
+        "1 heaped tbsp capers, chopped finely",
+        "½ tsp salt, more to taste",
+        "a generous grind of pepper",
+        "500 g / 17.5 oz vegan gnocchi (gluten-free if needed)",
+        "½ red onion, cut into thick wedges",
+        "1 small zucchini, sliced into thick quarters",
+        "400 g / 14 oz cherry tomatoes, halved",
+        "15 ml / 1 tbsp quality balsamic vinegar (optional)",
+        "1 tsp sugar or 1 tbsp chopped raisins",
+        "vegan ricotta, to serve (optional)"
+      ],
+      "nutrition": [
+        "Calories: 393 kcal",
+        "Sugars: 7 g",
+        "Fats: 10 g",
+        "Saturates: 1 g",
+        "Proteins: 8 g",
+        "Carbohydrates: 65 g"
+      ],
+      "spices": [
+        "1 tsp dried oregano",
+        "a generous pinch of mild chilli flakes (optional)",
+        "½ tsp salt",
+        "a generous grind of pepper"
+      ],
+      "instructions": [
+        "Preheat the oven to 220°C / 425°F and prepare a medium-sized baking tin (approximately 22.5 cm x 30 cm).",
+        "In a mixing jug, combine olive oil, grated garlic, oregano, chilli flakes (if using), chopped capers, salt, and pepper.",
+        "Place the gnocchi in the baking tin and stir in the olive oil mixture until well coated.",
+        "Add the onion wedges and zucchini pieces to the tin and mix gently.",
+        "Bake for 10 minutes.",
+        "Add the halved cherry tomatoes, balsamic vinegar (if using), and sugar or raisins. Stir everything together.",
+        "Bake for an additional 15 minutes, then stir the contents of the tin.",
+        "Bake for a final 10 minutes.",
+        "Divide between plates and serve with dollops of vegan ricotta, if desired."
+      ],
+      "tips": [
+        "Ensure the gnocchi is well coated with the olive oil mixture to prevent sticking and to enhance flavor.",
+        "Adding the tomatoes later in the baking process helps retain some of their shape and juiciness.",
+        "For a gluten-free version, ensure the gnocchi used is gluten-free."
+      ],
+      "prep-time": 10,
+      "cooking-time": 35,
+      "serves": "2-3",
+      "difficulty": 2,
+      "cuisine": "Italian",
+      "calories": 393,
+      "tags": [
+        "gnocchi",
+        "summer vegetables",
+        "vegan",
+        "easy to make",
+        "oven roasted"
+      ],
+      "slug": "baked-gnocchi-summer-vegetables"
     }
   ]
 }

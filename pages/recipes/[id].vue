@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import data from "~/data/data.json";
-const route = useRoute();
 const { enableNoSleep, disableNoSleep } = useNuxtApp();
 const isAwake = ref(false);
 
