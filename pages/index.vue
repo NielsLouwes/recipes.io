@@ -1,8 +1,10 @@
 <script lang="ts" setup>
 import type { Data } from "~/types/types";
+import { recipes } from '~/client/data/recipes.json'
 
-const { data } = await useFetch<Data>('/api/recipe')
-const recipes = data.value?.recipes || []
+// const { data } = await useFetch<Data>('/api/recipe')
+// const recipesData = recipes.rec || []
+console.log('recipes', recipes)
 
 
 </script>

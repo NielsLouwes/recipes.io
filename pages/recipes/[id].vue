@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import data from "~/server/runtime/data/recipes.json";
+import data from "~/client/data/recipes.json";
 const { enableNoSleep, disableNoSleep } = useNuxtApp();
 const isAwake = ref(false);
 
