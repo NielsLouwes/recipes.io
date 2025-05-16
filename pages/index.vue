@@ -3,7 +3,7 @@ import type { Data } from "~/types/types";
 
 const { data } = await useFetch<Data>('/api/recipe')
 const recipes = data.value?.recipes || []
-console.log('data', recipes)
+
 
 </script>
 <template>
