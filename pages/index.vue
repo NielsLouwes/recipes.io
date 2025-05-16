@@ -1,15 +1,17 @@
 <script lang="ts" setup>
-import data from "~/data/data.json";
 import type { Data } from "~/types/types";
 
-const recipes: Data = data;
+const { data } = await useFetch<Data>('/api/recipe')
+const recipes = data.value?.recipes || []
+console.log('data', recipes)
+
 </script>
 <template>
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-12 py-8"
   >
     <div
-      v-for="(recipe, index) in recipes.recipes"
+      v-for="(recipe, index) in recipes"
       :key="recipe.id"
       :class="[
         'transition-all duration-300',
