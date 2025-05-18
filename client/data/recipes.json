@@ -418,6 +418,65 @@
         "oven roasted"
       ],
       "slug": "baked-gnocchi-summer-vegetables"
+    },
+    {
+      "id": 9,
+      "name": "Vegan Moussaka with Red Lentils and Chestnut Mushrooms",
+      "description": "A hearty vegan take on the Greek classic, featuring creamy oat béchamel, red lentils, earthy mushrooms, and layers of roasted eggplant and potatoes.",
+      "ingredients": [
+        "1 eggplant",
+        "380g red lentils in tomato sauce",
+        "200g passata",
+        "1 onion, chopped",
+        "100g cashew nuts (soaked)",
+        "200ml oat cuisine (or oat cream)",
+        "250g chestnut mushrooms, chopped",
+        "200g potato slices (pre-cooked or parboiled)",
+        "75g arugula",
+        "2 cloves garlic",
+        "Olive oil",
+        "Salt",
+        "Pepper",
+        "Nutmeg",
+        "Oregano"
+      ],
+      "nutrition": [],
+      "spices": [
+        "Nutmeg",
+        "Oregano",
+        "Black pepper"
+      ],
+      "instructions": [
+        "Preheat the oven to 220°C.",
+        "Soak cashew nuts in boiling water for 15 minutes.",
+        "Slice the eggplant crosswise into thin slices.",
+        "Heat olive oil in a pan and fry the eggplant slices for 2 minutes per side until golden. Drain on paper and season with salt and pepper.",
+        "Chop the onion and finely chop the garlic.",
+        "In another pan, heat oil and sauté the onion until translucent. Add half of the garlic, mushrooms, and oregano, and cook for 2 minutes.",
+        "Add red lentils in tomato sauce and passata. Simmer for 2 minutes, season with salt and pepper.",
+        "Drain the cashews and blend with the rest of the garlic, oat cuisine, and nutmeg until smooth. Season the béchamel with salt and pepper.",
+        "Layer in an oven dish: lentil-mushroom mix, eggplant, potato slices, béchamel. Repeat once, finishing with béchamel.",
+        "Bake for 20 minutes until golden.",
+        "Toss arugula with olive oil, salt, and pepper. Serve with the moussaka."
+      ],
+      "tips": [],
+      "prep-time": null,
+      "cooking-time": 30,
+      "serves": "2",
+      "difficulty": 3,
+      "cuisine": "Greek",
+      "calories": null,
+      "tags": [
+        "moussaka",
+        "vegan",
+        "lentils",
+        "eggplant",
+        "mushrooms",
+        "comfort food",
+        "plant-based",
+        "baked"
+      ],
+      "slug": "vegan-moussaka-red-lentils-mushrooms"
     }
   ]
 }
