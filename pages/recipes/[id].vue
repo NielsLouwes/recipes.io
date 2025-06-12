@@ -1,27 +1,28 @@
 <script lang="ts" setup>
-import data from "~/client/data/recipes.json";
-const { enableNoSleep, disableNoSleep } = useNuxtApp();
-const isAwake = ref(false);
+import data from '~/client/data/recipes.json'
+const { enableNoSleep, disableNoSleep } = useNuxtApp()
+const isAwake = ref(false)
 
-const { id } = useRoute().params;
-console.log("data", data);
+const { id } = useRoute().params
+console.log('data', data)
 
 const getRecipeInfo = () => {
-  return data.recipes.find((recipe) => recipe.id === Number(id));
-};
+  return data.recipes.find(recipe => recipe.id === Number(id))
+}
 
-const recipe = getRecipeInfo();
+const recipe = getRecipeInfo()
 
 const toggleLock = () => {
-  isAwake.value = !isAwake.value;
-  isAwake.value ? enableNoSleep() : disableNoSleep();
-};
-
+  isAwake.value = !isAwake.value
+  isAwake.value ? enableNoSleep() : disableNoSleep()
+}
 </script>
 
 <template>
   <div class="flex flex-col w-[95%] md:w-[70%] gap-6 px-2 md:py-8 mx-auto">
-    <h2 class="font-heading text-2xl md:text-4xl tracking-wide font-extrabold">{{ recipe?.name }}</h2>
+    <h2 class="font-heading text-2xl md:text-4xl tracking-wide font-extrabold">
+      {{ recipe?.name }}
+    </h2>
     <p class="font-body text-gray-600 italic">{{ recipe?.description }}</p>
 
     <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
@@ -43,7 +44,7 @@ const toggleLock = () => {
 
         <label class="flex items-center gap-2">
           <span class="font-body text-gray-700">Lock screen</span>
-          <input type="checkbox"  @click="toggleLock" >
+          <input type="checkbox" @click="toggleLock" />
         </label>
       </div>
       <ol class="space-y-4">
