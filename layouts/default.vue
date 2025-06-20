@@ -16,7 +16,6 @@ const isShoppingListPath = computed(() => {
           Recipes.io
         </h1>
       </NuxtLink>
-
       <NuxtLink v-if="!isShoppingListPath" to="/shopping-list">
         <button class="border-2 border-gray-300 p-2 rounded-lg hover:border-purple-500">
           Shopping List

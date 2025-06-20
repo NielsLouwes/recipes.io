@@ -14,7 +14,7 @@ import { recipes } from '~/client/data/recipes.json'
     >
       <NuxtLink :to="`/recipes/${recipe.id}`" class="block h-full">
         <div
-          class="border border-gray-300 h-full p-6 rounded-sm hover:border-purple-500 hover:border-[3px] transition-all duration-300"
+          class="border border-gray-300 h-full p-6 rounded-sm hover:border-purple-500 hover:border-[2px] transition-all duration-300"
         >
           <h2 class="font-heading text-2xl mb-3">{{ recipe.name }}</h2>
           <p class="font-body text-gray-600">{{ recipe.description }}</p>

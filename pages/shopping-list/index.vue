@@ -1,8 +1,13 @@
 <script lang="ts" setup>
-const { path } = useRoute()
-console.log('path', path)
+// Create a reactive state and set default value
+let shoppingList = useState('shopping-list', () => [])
 </script>
 
 <template>
-  <h1>Shopping list</h1>
+  <div>
+    <h1 class="text-2xl">Shopping list</h1>
+    <div v-for="item in shoppingList">
+      {{ item }}
+    </div>
+  </div>
 </template>

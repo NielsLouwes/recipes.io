@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import data from '~/client/data/recipes.json'
+import IngredientItem from '~/components/IngredientItem.vue'
 // const { enableNoSleep, disableNoSleep } = useNuxtApp()
 // const isAwake = ref(false)
 
@@ -16,6 +17,9 @@ const recipe = getRecipeInfo()
 //   isAwake.value = !isAwake.value
 //   isAwake.value ? enableNoSleep() : disableNoSleep()
 // }
+
+// Create a reactive state and set default value
+// const count = useState('counter', () => Math.round(Math.random() * 100))
 </script>
 
 <template>
@@ -28,13 +32,7 @@ const recipe = getRecipeInfo()
     <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
       <h2 class="font-heading text-xl mb-4 font-bold">Ingredients</h2>
       <ul class="space-y-2">
-        <li
-          v-for="(ingredient, index) in recipe?.ingredients"
-          :key="index"
-          class="font-body text-gray-700"
-        >
-          • {{ ingredient }}
-        </li>
+        <IngredientItem v-if="recipe" :recipe="recipe" />
       </ul>
     </div>
 
