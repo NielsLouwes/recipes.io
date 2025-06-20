@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import data from '~/client/data/recipes.json'
-const { enableNoSleep, disableNoSleep } = useNuxtApp()
-const isAwake = ref(false)
+// const { enableNoSleep, disableNoSleep } = useNuxtApp()
+// const isAwake = ref(false)
 
 const { id } = useRoute().params
 console.log('data', data)
@@ -12,10 +12,10 @@ const getRecipeInfo = () => {
 
 const recipe = getRecipeInfo()
 
-const toggleLock = () => {
-  isAwake.value = !isAwake.value
-  isAwake.value ? enableNoSleep() : disableNoSleep()
-}
+// const toggleLock = () => {
+//   isAwake.value = !isAwake.value
+//   isAwake.value ? enableNoSleep() : disableNoSleep()
+// }
 </script>
 
 <template>
@@ -44,7 +44,7 @@ const toggleLock = () => {
 
         <label class="flex items-center gap-2">
           <span class="font-body text-gray-700">Lock screen</span>
-          <input type="checkbox" @click="toggleLock" />
+          <!-- <input type="checkbox" @click="toggleLock" /> -->
         </label>
       </div>
       <ol class="space-y-4">
