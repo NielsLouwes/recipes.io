@@ -14,7 +14,7 @@ console.log('shoppingList', shoppingList.value)
 const addItemToShoppingList = (ingredient: string) => {
   console.log('clicked!')
   if (!shoppingList.value.includes(ingredient)) {
-    return shoppingList.value.push(ingredient)
+    shoppingList.value.push(ingredient)
   }
 }
 </script>
