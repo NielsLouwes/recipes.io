@@ -1,22 +1,13 @@
 <script lang="ts" setup>
 import type { Recipe } from '@/types/types'
+import { useShoppingList } from '~/composables/useShoppingList'
 
 interface IngredientItemProps {
   recipe: Recipe
 }
 
 const { recipe } = defineProps<IngredientItemProps>()
-console.log('recipe', recipe)
-
-const shoppingList = useState<string[]>('shopping-list', () => [])
-console.log('shoppingList', shoppingList.value)
-
-const addItemToShoppingList = (ingredient: string) => {
-  console.log('clicked!')
-  if (!shoppingList.value.includes(ingredient)) {
-    shoppingList.value.push(ingredient)
-  }
-}
+const { addItemToShoppingList } = useShoppingList()
 </script>
 
 <template>

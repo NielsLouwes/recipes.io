@@ -3,7 +3,6 @@ import data from '~/client/data/recipes.json'
 import IngredientItem from '~/components/IngredientItem.vue'
 
 const { id } = useRoute().params
-console.log('data', data)
 
 const getRecipeInfo = () => {
   return data.recipes.find(recipe => recipe.id === Number(id))

@@ -1,6 +1,7 @@
 <script lang="ts" setup>
-// Access the global shopping list state
-const shoppingList = useState<string[]>('shopping-list', () => [])
+import { useShoppingList } from '~/composables/useShoppingList'
+
+const { shoppingList } = useShoppingList()
 </script>
 
 <template>
