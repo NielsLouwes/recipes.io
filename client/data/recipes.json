@@ -34,13 +34,7 @@
       "difficulty": 3,
       "cuisine": "Pasta",
       "calories": null,
-      "tags": [
-        "pasta",
-        "vegan chicken",
-        "mushrooms",
-        "creamy pasta",
-        "easy to make"
-      ],
+      "tags": ["pasta", "vegan chicken", "mushrooms", "creamy pasta", "easy to make"],
       "slug": "creamy-mushroom-vegan-chicken"
     },
     {
@@ -154,14 +148,7 @@
       "difficulty": 3,
       "cuisine": "Pasta",
       "calories": 180,
-      "tags": [
-        "potatoes",
-        "salad",
-        "potato salad",
-        "creamy pasta",
-        "gluten free",
-        "easy to make"
-      ],
+      "tags": ["potatoes", "salad", "potato salad", "creamy pasta", "gluten free", "easy to make"],
       "slug": "vegan-potato-salad"
     },
     {
@@ -321,11 +308,7 @@
         "Fiber: 3g",
         "Sugar: 18g"
       ],
-      "spices": [
-        "Salt",
-        "Black Pepper",
-        "Cinnamon"
-      ],
+      "spices": ["Salt", "Black Pepper", "Cinnamon"],
       "instructions": [
         "Place a large skillet over medium heat and add the butter.",
         "Once melted, add the carrots and sauté for 5 minutes, stirring occasionally.",
@@ -345,13 +328,7 @@
       "difficulty": 2,
       "cuisine": "Side Dish",
       "calories": 150,
-      "tags": [
-        "carrots",
-        "vegetables",
-        "side dish",
-        "easy to make",
-        "vegan option"
-      ],
+      "tags": ["carrots", "vegetables", "side dish", "easy to make", "vegan option"],
       "slug": "glazed-stovetop-carrots"
     },
     {
@@ -410,13 +387,7 @@
       "difficulty": 2,
       "cuisine": "Italian",
       "calories": 393,
-      "tags": [
-        "gnocchi",
-        "summer vegetables",
-        "vegan",
-        "easy to make",
-        "oven roasted"
-      ],
+      "tags": ["gnocchi", "summer vegetables", "vegan", "easy to make", "oven roasted"],
       "slug": "baked-gnocchi-summer-vegetables"
     },
     {
@@ -441,11 +412,7 @@
         "Oregano"
       ],
       "nutrition": [],
-      "spices": [
-        "Nutmeg",
-        "Oregano",
-        "Black pepper"
-      ],
+      "spices": ["Nutmeg", "Oregano", "Black pepper"],
       "instructions": [
         "Preheat the oven to 220°C.",
         "Soak cashew nuts in boiling water for 15 minutes.",
@@ -477,6 +444,156 @@
         "baked"
       ],
       "slug": "vegan-moussaka-red-lentils-mushrooms"
+    },
+    {
+      "id": 10,
+      "name": "Mediterranean Lentil Soup",
+      "description": "A cozy, protein-rich, high-fiber meal that's hearty, healthy, and easy to make. This Mediterranean lentil soup features lentils, vegetables, and spinach simmered together into a bowl that's both comforting and nutritious.",
+      "ingredients": [
+        "2 tbsp extra virgin olive oil",
+        "1 large onion, chopped",
+        "1 rib celery, chopped",
+        "3 medium carrots, chopped",
+        "3 cloves garlic, pressed or minced",
+        "1 teaspoon dried oregano",
+        "1 cup dried lentils (or 3 cups cooked lentils / 2 cans lentils)",
+        "2 medium potatoes, diced",
+        "6 cups vegetable broth (3 cups if using canned lentils)",
+        "1 can crushed tomatoes (15 oz / 400g)",
+        "7 oz spinach (about 7 cups)",
+        "1½ tablespoons balsamic vinegar",
+        "1 teaspoon salt",
+        "Black pepper to taste"
+      ],
+      "nutrition": [
+        "Serving: 1 of 4",
+        "Calories: 409kcal",
+        "Carbohydrates: 68g",
+        "Protein: 19g",
+        "Fat: 8g",
+        "Saturated Fat: 1g",
+        "Polyunsaturated Fat: 1g",
+        "Monounsaturated Fat: 5g",
+        "Trans Fat: 0g",
+        "Cholesterol: 0mg",
+        "Sodium: 823mg",
+        "Potassium: 1745mg",
+        "Dietary Fiber: 23g",
+        "Sugar: 11g",
+        "Vitamin A: 12586IU",
+        "Vitamin B6: 1mg",
+        "Vitamin C: 53mg",
+        "Vitamin E: 4mg",
+        "Vitamin K: 266µg",
+        "Calcium: 176mg",
+        "Folate: 386µg",
+        "Iron: 8mg",
+        "Manganese: 2mg",
+        "Magnesium: 161mg",
+        "Zinc: 3mg"
+      ],
+      "spices": ["1 teaspoon dried oregano", "1 teaspoon salt", "Black pepper to taste"],
+      "instructions": [
+        "Build the Flavor Base: Heat the 2 tablespoons extra virgin olive oil in a large pot. Add 1 large onion, 1 rib celery, 3 medium carrots, 3 cloves garlic (all chopped), and 1 teaspoon dried oregano. Cook for about 5 minutes, stirring often, until the vegetables soften but don't brown.",
+        "Simmer the Soup: Add 1 cup dried lentils (rinsed), 2 medium potatoes (diced), 6 cups vegetable broth, and 1 can crushed tomatoes. Season with 1 teaspoon salt and black pepper. Bring to a boil, then lower the heat and simmer for about 30 minutes, stirring occasionally, until the lentils are tender and the soup is thick. Tip: If using canned lentils, cut the broth and cooking time in half.",
+        "Add the Greens: Stir in 7 oz spinach and 1½ tablespoons balsamic vinegar a few minutes before the soup is done. Cook until the greens wilt. Taste and adjust seasoning.",
+        "Serve: Serve hot with crusty bread, a drizzle of olive oil or chili oil, and optional toppings like parmesan, scallions, or Greek yogurt."
+      ],
+      "tips": [
+        "Build flavor slowly: Sweat onion, carrot, and celery in olive oil until soft, not browned. Add a splash of water if the pan gets dry.",
+        "Canned lentils work too: Just halve the broth and cooking time for the same rich result.",
+        "Add greens at the end: Spinach wilts in minutes, keeping your soup bright and fresh.",
+        "Balance flavors: A splash of balsamic or lemon juice at the end lifts the earthy lentils.",
+        "Rest before serving: Let the soup sit covered for 10 minutes so the flavors meld and the broth thickens."
+      ],
+      "prep-time": 10,
+      "cooking-time": 30,
+      "serves": "4",
+      "difficulty": 2,
+      "cuisine": "Mediterranean",
+      "calories": 409,
+      "tags": [
+        "lentils",
+        "soup",
+        "mediterranean",
+        "healthy",
+        "high fiber",
+        "protein rich",
+        "vegetarian",
+        "one pot meal",
+        "comfort food"
+      ],
+      "slug": "mediterranean-lentil-soup"
+    },
+    {
+      "id": 11,
+      "name": "Creamy Tomato Gnocchi",
+      "description": "This one pan creamy tomato gnocchi recipe is easy comfort food at its best! It's convenient since it's ready in just 25 minutes, and you'll agree it's a restaurant quality dish. Perfect as a meatless main or satisfying side dish.",
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "1/2 medium onion, chopped finely",
+        "1/4 cup dry white wine",
+        "1 tablespoon Dijon mustard",
+        "3-4 cloves garlic, minced",
+        "1/4 teaspoon Italian seasoning",
+        "1 (14 fluid ounce) can diced tomatoes with juices",
+        "1 cup heavy/whipping cream",
+        "1 pound uncooked potato gnocchi",
+        "1 small handful fresh basil, torn or chopped",
+        "Salt & pepper to taste",
+        "Freshly grated parmesan cheese (optional) to taste"
+      ],
+      "nutrition": [
+        "Calories: 456kcal",
+        "Carbohydrates: 48g",
+        "Protein: 7g",
+        "Fat: 26g",
+        "Saturated Fat: 15g",
+        "Polyunsaturated Fat: 1g",
+        "Monounsaturated Fat: 8g",
+        "Cholesterol: 67mg",
+        "Sodium: 544mg",
+        "Potassium: 287mg",
+        "Fiber: 4g",
+        "Sugar: 5g",
+        "Vitamin A: 1046IU",
+        "Vitamin C: 11mg",
+        "Calcium: 105mg",
+        "Iron: 5mg"
+      ],
+      "spices": ["1/4 teaspoon Italian seasoning", "Salt & pepper to taste"],
+      "instructions": [
+        "Add the olive oil to a skillet on medium-high heat. Sauté the onion for about 5 minutes (ok if it's lightly browned).",
+        "Add the white wine, Dijon mustard, garlic, and Italian seasoning. Stir until you've got a smooth mixture and let it cook for about a minute.",
+        "Add the diced tomatoes, cream, and gnocchi. Wait until it starts to lightly bubble again, then reduce the heat to medium and cover for 5 minutes.",
+        "Give it a good stir, and add the basil and season with salt & pepper. Let it cook for another couple minutes to ensure the gnocchi is fully cooked and the starch thickens the sauce up a bit more.",
+        "Stir in parmesan (optional) or sprinkle it on top. Serve immediately."
+      ],
+      "tips": [
+        "The gnocchi will cook right in the sauce – no need to cook it beforehand.",
+        "This makes 4 reasonably sized portions. If you're feeding extra hungry people, I recommend serving this with a salad, garlic bread, and/or something else.",
+        "You can sub the white wine for vegetable or chicken broth if preferred.",
+        "Try stirring in some fresh spinach towards the end if you want to include some greens.",
+        "Leftovers will keep for 3-4 days in the fridge in an airtight container."
+      ],
+      "prep-time": 5,
+      "cooking-time": 20,
+      "serves": "4",
+      "difficulty": 2,
+      "cuisine": "Italian",
+      "calories": 456,
+      "tags": [
+        "gnocchi",
+        "tomato",
+        "creamy",
+        "one pan",
+        "vegetarian",
+        "comfort food",
+        "quick meal",
+        "pasta",
+        "easy to make"
+      ],
+      "slug": "creamy-tomato-gnocchi"
     }
   ]
 }

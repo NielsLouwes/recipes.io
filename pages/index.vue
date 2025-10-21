@@ -2,7 +2,7 @@
 import { recipes } from '~/client/data/recipes.json'
 </script>
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-12 py-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-4 md:px-12 md:py-8">
     <div
       v-for="(recipe, index) in recipes"
       :key="recipe.id"
