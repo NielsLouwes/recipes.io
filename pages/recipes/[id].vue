@@ -1,14 +1,19 @@
 <script lang="ts" setup>
 import data from '~/client/data/recipes.json'
 import IngredientItem from '~/components/IngredientItem.vue'
+import { useWakeLock } from '~/composables/useWakeLock'
 
 const { id } = useRoute().params
+const { isSupported, supportMessage } = useWakeLock()
 
 const getRecipeInfo = () => {
   return data.recipes.find(recipe => recipe.id === Number(id))
 }
 
 const recipe = getRecipeInfo()
+
+console.log('isSupported', isSupported)
+console.log('supportMessage', supportMessage)
 </script>
 
 <template>
@@ -20,7 +25,7 @@ const recipe = getRecipeInfo()
 
     <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
       <h2 class="font-heading text-xl mb-4 font-bold">Ingredients</h2>
-      <ul class="space-y-2">
+      <ul class="space-y-2 flex flex-col">
         <IngredientItem v-if="recipe" :recipe="recipe" />
       </ul>
     </div>
