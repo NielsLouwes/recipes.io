@@ -2,6 +2,7 @@
 import data from '~/client/data/recipes.json'
 import IngredientItem from '~/components/IngredientItem.vue'
 import { useWakeLock } from '~/composables/useWakeLock'
+import { onUnmounted } from 'vue'
 
 const { id } = useRoute().params
 const { isSupported, requestWakeLock, releaseWakeLock, isLocked } = useWakeLock()
@@ -11,6 +12,12 @@ const getRecipeInfo = () => {
 }
 
 const recipe = getRecipeInfo()
+
+onUnmounted(() => {
+  if (isLocked?.value) {
+    releaseWakeLock()
+  }
+})
 </script>
 
 <template>

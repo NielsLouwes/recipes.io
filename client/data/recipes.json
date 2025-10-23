@@ -594,6 +594,54 @@
         "easy to make"
       ],
       "slug": "creamy-tomato-gnocchi"
+    },
+    {
+      "id": 12,
+      "name": "Vegan Garlic Yogurt Sauce",
+      "description": "A creamy vegan garlic sauce made with plant-based yogurt, perfect for döner kebab, salad dressing, sandwich sauce, or pizza dip. This oil-free recipe uses only 5 ingredients and takes just 10 minutes to prepare.",
+      "ingredients": [
+        "1 ½ cup (375 g) of plant yogurt, unsweetened",
+        "¼ cup (60 ml) of water",
+        "2 teaspoon apple cider vinegar",
+        "2 teaspoons lemon juice",
+        "1.5 teaspoon nut butter (almond, cashew, or tahini)",
+        "2 garlic cloves, minced",
+        "Salt to taste",
+        "Pepper to taste",
+        "Herbs of your choice (parsley or chives) - optional"
+      ],
+      "nutrition": [],
+      "spices": ["Salt", "Pepper"],
+      "instructions": [
+        "For the sauce, you take all the ingredients and mix them to a creamy sauce.",
+        "If you like, you can do it the day before. So the sauce can still absorb the taste."
+      ],
+      "tips": [
+        "Let the sauce sit for 30 minutes and taste again. You can add more garlic if you want.",
+        "Add some fresh herbs to get other flavors with this garlic sauce. Like cilantro for a cilantro garlic sauce. Or fresh parsley or fresh dill.",
+        "Add a cheesy note with some nutritional yeast.",
+        "You want a thicker consistency, add some more tahini or nut butter.",
+        "Add as much garlic cloves as you want to. Adjust to your spice level."
+      ],
+      "prep-time": 10,
+      "cooking-time": 0,
+      "serves": "1 lbs jar",
+      "difficulty": 1,
+      "cuisine": "Turkish",
+      "calories": null,
+      "tags": [
+        "vegan",
+        "garlic sauce",
+        "yogurt",
+        "dip",
+        "oil free",
+        "gluten free",
+        "quick",
+        "condiment",
+        "döner",
+        "kebab"
+      ],
+      "slug": "vegan-garlic-yogurt-sauce"
     }
   ]
 }
