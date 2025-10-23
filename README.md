@@ -1,75 +1,9 @@
-# Nuxt Minimal Starter
+I built a small recipe app for me and my girlfriend using Vue/Nuxt/TailwindCSS.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<img width="1894" height="921" alt="image" src="https://github.com/user-attachments/assets/8fc0b210-e1bd-4ed6-b314-7035cf1dc98c" />
+<img width="1509" height="920" alt="image" src="https://github.com/user-attachments/assets/ffca9173-57b7-42b1-b396-27583b5e9271" />
 
-## Setup
+Mobile
+<img width="374" height="815" alt="image" src="https://github.com/user-attachments/assets/07d200a5-0cfe-4eaa-ac20-8a059a90544b" />
 
-Make sure to install dependencies:
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
