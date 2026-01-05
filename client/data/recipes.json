@@ -642,6 +642,114 @@
         "kebab"
       ],
       "slug": "vegan-garlic-yogurt-sauce"
+    },
+    {
+      "id": 13,
+      "name": "Spicy Baked Zucchini Chickpea Curry",
+      "description": "A flavorful baked curry featuring zucchini and chickpeas in a spicy tomato-coconut sauce. This hands-off oven method makes it easy to prepare while delivering bold Indian-inspired flavors.",
+      "ingredients": [
+        "2 medium zucchinis, chopped",
+        "1 medium onion, chopped",
+        "4 cloves garlic, minced",
+        "1 inch ginger, minced",
+        "1-2 tbsp sambal oelek (Asian chili garlic sauce)",
+        "1 tbsp hot sauce",
+        "1 tsp garam masala",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp turmeric",
+        "1/2 tsp smoked paprika",
+        "1/4 tsp cayenne pepper",
+        "1 (15 oz) can chickpeas, drained and rinsed",
+        "1 (14 oz) can diced tomatoes",
+        "1/2 cup coconut milk",
+        "Salt to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "nutrition": [],
+      "spices": [
+        "1 tsp garam masala",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp turmeric",
+        "1/2 tsp smoked paprika",
+        "1/4 tsp cayenne pepper"
+      ],
+      "instructions": [
+        "Preheat the oven to 200°C (400°F).",
+        "In a large baking dish, combine the chopped zucchini, onion, garlic, ginger, sambal oelek, hot sauce, garam masala, cumin, coriander, turmeric, smoked paprika, and cayenne pepper. Mix well to coat the vegetables with the spices.",
+        "Bake the mixture for 20 minutes, stirring once halfway through.",
+        "Remove the dish from the oven and add the chickpeas, diced tomatoes, coconut milk, and salt. Stir to combine.",
+        "Return the dish to the oven and bake for an additional 10-15 minutes, until the sauce is bubbly and the vegetables are tender.",
+        "Garnish with fresh cilantro before serving."
+      ],
+      "tips": [
+        "Serve with rice, flatbread, naan, or sourdough.",
+        "You can substitute zucchini with other seasonal vegetables like pumpkin, butternut squash, sweet potato, fennel, or root vegetables."
+      ],
+      "prep-time": 15,
+      "cooking-time": 30,
+      "serves": "4",
+      "difficulty": 2,
+      "cuisine": "Indian",
+      "calories": null,
+      "tags": ["curry", "chickpeas", "zucchini", "vegan", "baked", "spicy", "indian", "easy to make"],
+      "slug": "baked-zucchini-chickpea-curry"
+    },
+    {
+      "id": 14,
+      "name": "Gigantes Plaki (Greek Baked White Beans)",
+      "description": "A classic Greek comfort dish featuring large white beans slow-baked in a rich tomato sauce with aromatic herbs. Creamy, hearty, and bursting with Mediterranean flavors.",
+      "ingredients": [
+        "1/4 cup olive oil",
+        "1 onion, chopped",
+        "2 medium carrots, finely chopped",
+        "2 stalks celery, finely chopped",
+        "6 cloves garlic, minced",
+        "1/4 cup fresh flat-leaf parsley, chopped (plus more for garnish)",
+        "1-2 tbsp fresh dill, chopped (plus more for garnish)",
+        "1 tsp oregano",
+        "1/2 tsp paprika",
+        "1/4-1/2 tsp chili flakes",
+        "1 heaping tbsp tomato paste",
+        "1 (15 oz) can diced or crushed tomatoes",
+        "2 (15 oz) cans large white beans (Lima or butter beans), drained and rinsed",
+        "1/4 cup water or vegetable broth",
+        "1-2 bay leaves",
+        "1 cup chopped greens like spinach or kale (optional)",
+        "Salt and pepper to taste",
+        "Crumbled feta for serving (optional)"
+      ],
+      "nutrition": [],
+      "spices": [
+        "1 tsp oregano",
+        "1/2 tsp paprika",
+        "1/4-1/2 tsp chili flakes",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat the oven to 190°C (375°F).",
+        "Heat olive oil in a medium-sized pot or oven-safe skillet over medium-high heat. Add the onions, garlic, celery, and carrots. Sauté for 8-10 minutes until the vegetables are tender. Season with salt and pepper.",
+        "Add the fresh herbs, chili flakes, paprika, and oregano. Sauté for another minute.",
+        "Add the tomato paste and sauté, stirring well, for another minute.",
+        "Pour in the tomatoes, water or broth, bay leaves, beans, and chopped greens (if using). Stir well and allow to simmer for 5-8 minutes until the sauce has reduced a little.",
+        "Transfer the mixture to a baking dish (or if using an oven-safe skillet, place directly in oven). Bake for 30-45 minutes, until the beans are tender and creamy, the sauce is bubbling, and the top layer is lightly browned.",
+        "Check halfway through cooking to see if the beans are too dry and need a little more water or broth.",
+        "Once done, garnish with fresh parsley and serve with crumbled feta and an extra drizzle of olive oil."
+      ],
+      "tips": [
+        "If using dried beans, soak them overnight in cold water with 1 tsp baking soda, then rinse, drain, and simmer for 45 minutes to 1 hour until soft before using in the recipe.",
+        "For a more authentic method using dried beans, add 4-5 cups of water to cover the beans and bake covered for 2-2.5 hours until completely softened.",
+        "Remove bay leaves before serving."
+      ],
+      "prep-time": 10,
+      "cooking-time": 45,
+      "serves": "4-6",
+      "difficulty": 2,
+      "cuisine": "Greek",
+      "calories": null,
+      "tags": ["greek", "beans", "baked", "mediterranean", "comfort food", "vegan", "vegetarian"],
+      "slug": "gigantes-plaki-greek-baked-white-beans"
     }
   ]
 }
