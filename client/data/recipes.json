@@ -750,6 +750,63 @@
       "calories": null,
       "tags": ["greek", "beans", "baked", "mediterranean", "comfort food", "vegan", "vegetarian"],
       "slug": "gigantes-plaki-greek-baked-white-beans"
+    },
+    {
+      "id": 15,
+      "name": "Roasted Eggplant Curry with Chickpeas",
+      "description": "A comforting vegan curry featuring roasted eggplant that practically melts into a luxurious, warmly spiced sauce with chickpeas and coconut milk. Budget-friendly, perfect for meal prep, and packed with rich, complex flavors.",
+      "ingredients": [
+        "2 medium eggplants, cubed (about 1100g total)",
+        "5 tbsp olive oil (3 for eggplant, 2 for sautéing)",
+        "1 large onion, chopped",
+        "1 red bell pepper, seeded and diced",
+        "2 tsp ground coriander",
+        "2 tsp smoked paprika",
+        "2 tsp ground turmeric",
+        "1 tsp garam masala (or curry powder)",
+        "3 cloves garlic, minced",
+        "2 tsp fresh ginger, grated (or 1/2 tsp ground ginger)",
+        "1 (14.5 oz) can diced tomatoes",
+        "1 (13.5 oz) can full fat coconut milk",
+        "1 (15 oz) can chickpeas, drained and rinsed",
+        "1 tsp salt, or more to taste",
+        "1/2 cup fresh cilantro or parsley, chopped",
+        "Cooked rice for serving"
+      ],
+      "nutrition": [],
+      "spices": [
+        "2 tsp ground coriander",
+        "2 tsp smoked paprika",
+        "2 tsp ground turmeric",
+        "1 tsp garam masala"
+      ],
+      "instructions": [
+        "Preheat oven to 200°C (400°F). Lightly oil a large rimmed baking sheet.",
+        "Cut the tops off of the eggplants, then chop into 1 inch cubes. No need to peel unless you prefer to.",
+        "Add the eggplant chunks to the baking sheet and drizzle with 3 tablespoons of olive oil. Stir to coat, spread out, and sprinkle with salt. Bake for 25-30 minutes, until tender.",
+        "Meanwhile, in a large skillet, add 2 tablespoons of olive oil over medium heat. Sauté the onion and red bell pepper for 4-5 minutes, until translucent and soft.",
+        "Stir in the spices: coriander, smoked paprika, turmeric, and garam masala. If the mixture gets too dry, add a few tablespoons of water to deglaze. Cook for about 1 minute.",
+        "Add the garlic and ginger and cook for 1 more minute until fragrant.",
+        "Add the diced tomatoes, coconut milk, and chickpeas to the skillet. Stir to combine.",
+        "Once the eggplant is done roasting, add it to the skillet and stir to coat.",
+        "Bring the mixture to a simmer, then reduce heat and continue to simmer for 10-15 minutes until everything is tender and flavors have melded.",
+        "Season with salt to taste. Serve over rice and garnish with fresh cilantro."
+      ],
+      "tips": [
+        "Roasting the eggplant is key - it deepens the flavors and creates the best texture. If too hot to use the oven, pan-fry the eggplant instead.",
+        "This curry is perfect for meal prep and tastes even better the next day.",
+        "Store leftovers in the fridge for 3-4 days or freeze for up to 3 months.",
+        "Add 1-3 diced green chili peppers with the onions for extra heat.",
+        "Can substitute coconut milk with cashew cream, or use water/unsweetened plant milk for a lighter version."
+      ],
+      "prep-time": 10,
+      "cooking-time": 50,
+      "serves": "6",
+      "difficulty": 2,
+      "cuisine": "Indian",
+      "calories": null,
+      "tags": ["curry", "eggplant", "chickpeas", "vegan", "indian", "roasted", "coconut milk", "meal prep", "budget friendly"],
+      "slug": "roasted-eggplant-curry-chickpeas"
     }
   ]
 }
