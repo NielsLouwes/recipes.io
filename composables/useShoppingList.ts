@@ -7,5 +7,9 @@ export const useShoppingList = () => {
     }
   }
 
-  return { shoppingList, addItemToShoppingList }
+  const removeItemFromShoppingList = (ingredient: string) => {
+    shoppingList.value = shoppingList.value.filter(item => item !== ingredient)
+  }
+
+  return { shoppingList, addItemToShoppingList, removeItemFromShoppingList }
 }

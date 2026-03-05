@@ -26,6 +26,8 @@ onUnmounted(() => {
       {{ recipe?.name }}
     </h2>
     <p class="font-body text-gray-600 italic">{{ recipe?.description }}</p>
+    <span v-if="recipe?.['prep-time']"><strong>Prep time:</strong> {{ recipe?.['prep-time'] }} mins</span>
+    <span v-if="recipe?.['cooking-time']"><strong>Cooking time:</strong> {{ recipe?.['cooking-time'] }} mins</span>
 
     <div class="border border-gray-300 px-2 md:px-4 py-4 rounded-sm">
       <h2 class="font-heading text-xl mb-4 font-bold">Ingredients</h2>
